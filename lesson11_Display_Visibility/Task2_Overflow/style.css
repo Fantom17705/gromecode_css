@@ -1,12 +1,9 @@
 * {
     box-sizing: border-box;
-}
-
-body {
     display: flex;
 }
 
-div {
+.articles>div {
     height: 100px;
     width: 150px;
     background-color: beige;
