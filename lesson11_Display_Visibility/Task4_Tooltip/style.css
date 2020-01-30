@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+.dropdown {
+    margin: 16px;
+    display: inline-block;
+    position: absolute;
+}
+
+.dropdown__button {
+    border-bottom: 1px dotted black;
+    width: fit-content;
+}
+.dropdown__button_tooltip {
+    background-color: grey;
+    border-radius: 4px;
+    padding: 8px;
+    display: none;
+    position: absolute;
+    bottom: -40px;
+    
+}
+.dropdown:hover  .dropdown__button_tooltip {
+    display: inline-block;
+}
