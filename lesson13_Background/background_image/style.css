@@ -1,0 +1,11 @@
+div {
+    height: 500px;
+    width: 300px;
+    background-image: url(img/nature.jpeg);
+    background-position: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 32px;
+    text-align: center;
+}
