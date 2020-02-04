@@ -1,9 +1,9 @@
 .image {
     height: 200px;
     width: 200px;
-    float: left;
+   display: inline-block;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    border-bottom: 1px dotted grey;
+ 
 }
