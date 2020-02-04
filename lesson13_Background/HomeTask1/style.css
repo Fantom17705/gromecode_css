@@ -1,9 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 .image {
     height: 200px;
     width: 200px;
-   display: inline-block;
+    display: inline-block;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
- 
 }
