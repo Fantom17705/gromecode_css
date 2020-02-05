@@ -1,9 +1,11 @@
-
+.gallery {
+    display: flex;
+}
 .image {
     height: 200px;
     width: 200px;
-    display: inline-block;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
