@@ -2,7 +2,6 @@
 .main-video {
     max-width: 500px;
     height: auto;
-    margin: 0 auto;
-    margin-top: 200px;
+    margin: 200px auto;
     display: block;
 }
