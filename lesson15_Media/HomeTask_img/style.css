@@ -1,7 +1,4 @@
 
-* {
-    box-sizing: border-box;
-}
 
 .image-container {
     display: flex;
@@ -12,13 +9,17 @@
     width: 200px;
     height: 50px;
     background-color: bisque;
-    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-transform: uppercase;
+    font-size: 12px;
     font-weight: 700;
+    position: relative;
+bottom: 191.5px;
     opacity: 0.5;
-    line-height: 49px;
-    text-align: center;
-    margin: 0 auto;
+   
+}
     
     }
     .image-button:hover {
