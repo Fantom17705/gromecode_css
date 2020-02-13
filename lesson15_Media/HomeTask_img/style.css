@@ -1,6 +1,6 @@
 
-.image-container {
-
+* {
+    box-sizing: border-box;
 }
 
 .image {
