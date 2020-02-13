@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .image {
@@ -19,9 +18,8 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
-    position: absolute;
-    top: calc(22.5% - 25px);
-    left: calc(50% - 100px);
+    position: relative;
+    bottom: 191.5px;
     opacity: 0.5;
 }
 
