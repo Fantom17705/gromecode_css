@@ -9,7 +9,11 @@
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/headline.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 
 <body>
@@ -29,73 +33,96 @@
                     <a href="#" class="navigation__item">Library</a>
                 </nav>
                 <img class="header__arrow" src="img\arrow.png" alt="Arrow">
-                <button class="header__button">Get Started</button>
+                <button class="action-button">Get Started</button>
             </header>
-            <section>
+
+            <!--Headline-->
+
+            <section class="headline">
+                <div class="headline__block-text">
+                    <h1 class="headline__title">Build stunning websites & apps.</h1>
+                    <p class="headline__description">Create live segments and target the right people for messages based
+                        on their behaviors.</p>
+                    <div class="headline__action-buttons">
+                        <button class="action-button">Get Started</button>
+                        <button class="headline__learn-more-button">Learn More</button>
+                    </div>
+                </div>
+
+                <div>
+                    <img class="headline__banner" src="img/headline-main.png" alt="headline banner">
+                </div>
 
             </section>
         </div>
-<footer class="footer">
 
+        <!--footer-->
 
-    
-    <div class="footer__main">
-        <div class="about_company">
-            <div class="footer_logo">
-                <img class="logo__image" src="img/footer-logo.png" alt="logo">
-                <div class="logo__text">
-                    <div class="logo__name">Foundation</div>
-                    <div class="logo__description">Startup landing template</div>
+        <footer class="footer">
+            <div class="footer__main">
+                <div class="about_company">
+                    <div class="footer_logo">
+                        <img class="logo__image" src="img/footer-logo.png" alt="logo">
+                        <div class="logo__text">
+                            <div class="logo__name">Foundation</div>
+                            <div class="logo__description">Startup landing template</div>
+                        </div>
+                    </div>
+                    <p class="footer__decription">Foundation is a website template for startups and small teams. It
+                        helps to build a website in no time.</p>
+                    <div class="app-download">
+                        <a class="app-store_button" href="#"><img src="img/app-store.png" alt="AppStore link"></a>
+                        <a class="google-play_button" href="#"><img src="img/google-play.png"
+                                alt="Google_Play link"></a>
+
+                    </div>
+                </div>
+                <div class="additional-navigation">
+                    <div class="footer_block1">
+                        <a class="additional-navigation-product" href="#"><img src="img/footer-product.png"
+                                alt="product-link"></a>
+                        <div class="product_description">
+                            Acquire Users<br>
+                            Content Marketing<br>
+                            Website Templates<br>
+                            Customer Management<br>
+                            Virtual Inbox<br>
+                        </div>
+                    </div>
+                    <div class="footer_block2">
+                        <a class="additional-navigation-company" href="#"><img src="img/footer-company.png"
+                                alt="company-link"></a>
+                        <div class="company_description">
+                            About Foundation<br>
+                            Brand Guidelines<br>
+                            Press Kit<br>
+                            Support<br>
+                        </div>
+                    </div>
                 </div>
             </div>
-<p class="footer__decription">Foundation is a website template for startups and small teams. It helps to build a website in no time.</p>
-<div class="app-download">
-<a class="app-store_button" href="#"><img src="img/app-store.png" alt="AppStore link"></a>
-<a class="google-play_button" href="#"><img src="img/google-play.png" alt="Google_Play link"></a>
-
-</div>
-        </div>
-        <div class="additional-navigation">
-            <div class="footer_block1">
-            <a class="additional-navigation-product" href="#"><img src="img/footer-product.png" alt="product-link"></a>
-<div class="product_description">
-    Acquire Users<br>
-Content Marketing<br>
-Website Templates<br>
-Customer Management<br>
-Virtual Inbox<br>
-</div>
-</div>
-<div class="footer_block2">
-<a class="additional-navigation-company" href="#"><img src="img/footer-company.png" alt="company-link"></a>
-<div class="company_description">
-    About Foundation<br>
-    Brand Guidelines<br>
-    Press Kit<br>
-    Support<br>
-</div>
-</div>
-        </div>
-    </div>
-    
- 
-    
 
 
-    <section class="footer__bottom_section">
-    <div class="footer-navigation">
-        <a href="#" class="footer-navigation__item">Terms</a>
-        <a href="#" class="footer-navigation__item">Privacy</a>
-        <a href="#" class="footer-navigation__item">Lisence</a>
-    </div>
-    <div class="social-links">
-<a href="https://twitter.com" target="_blank" class="footer-social-links__twitter"><img src="img/icon-twitter.png" alt="twitter link" ></a>
-<a href="https://www.facebook.com" target="_blank" class="footer-social-links__fb"><img src="img/icon-fb.png" alt="facebook link"></a>
-<a href="https://www.linkedin.com" target="_blank" class="footer-social-links__linkedin"><img src="img/icon-linkedin.png" alt="linkedin link"></a>
-    </div>
-</section>
 
-</footer>
+
+
+            <div class="footer__bottom_section">
+                <div class="footer-navigation">
+                    <a href="#" class="footer-navigation__item">Terms</a>
+                    <a href="#" class="footer-navigation__item">Privacy</a>
+                    <a href="#" class="footer-navigation__item">Lisence</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://twitter.com" target="_blank" class="footer-social-links__twitter"><img
+                            src="img/icon-twitter.png" alt="twitter link"></a>
+                    <a href="https://www.facebook.com" target="_blank" class="footer-social-links__fb"><img
+                            src="img/icon-fb.png" alt="facebook link"></a>
+                    <a href="https://www.linkedin.com" target="_blank" class="footer-social-links__linkedin"><img
+                            src="img/icon-linkedin.png" alt="linkedin link"></a>
+                </div>
+            </div>
+
+        </footer>
 
     </div>
 </body>

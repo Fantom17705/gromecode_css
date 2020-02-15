@@ -1,0 +1,66 @@
+.header {
+    width: 1140px;
+    height: 62px;
+    margin: 0px 130px 0px 130px;
+    display: flex;
+}
+
+.navigation {
+    margin-left: auto;
+    height: 25px;
+    width: 273px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.navigation__item {
+    Font-family: Work Sans;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #2B292D;
+}
+
+.navigation__item_selected {
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    margin-left: 44px;
+}
+
+.logo__image {
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+}
+
+.logo__name {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.logo__description {
+    font-size: 18px;
+    line-height: 25px;
+    color: rgb(43, 41, 45);
+    opacity: 0.6;
+}
+
+.logo__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.header__arrow {
+    height: 5px;
+    width: 8px;
+    margin: 19px 56px 38px 11px;
+}

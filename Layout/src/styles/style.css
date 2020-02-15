@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.main-page {
+    width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.main-page__background {
+    background: #F3C6BD;
+    padding-top: 39px;
+}
+
+/*FOOTER*/
