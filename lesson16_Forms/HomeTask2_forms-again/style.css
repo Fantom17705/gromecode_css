@@ -1,8 +1,11 @@
 
 .form-controls {
-    margin: 16px;
+    margin: 32px;
     
 }
 div {
     margin: 8px;
+}
+.languages {
+    margin-left: 0px;
 }
