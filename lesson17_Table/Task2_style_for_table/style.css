@@ -15,10 +15,10 @@ table, td, th {
 }
 
 .table-test {
-    overflow-x: auto;
+    overflow-x: auto;q
 }
 
-tr {
+td, th {
     line-height: 40px;
 }
 
