@@ -19,9 +19,7 @@ table, td, th {
     overflow-x: auto;
 }
 
-td, th {
-    line-height: 40px;
-}
+
 
 tbody>tr:nth-child(odd) {
     background-color: #f2f2f2;
