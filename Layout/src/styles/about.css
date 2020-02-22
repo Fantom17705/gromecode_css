@@ -1,0 +1,33 @@
+.about {
+    position: relative;
+    width: 1400px;
+    height: 255px;
+    margin: auto;
+    display: flex;
+    background: #F4F5F7;
+    
+    font-size: 22px;
+    line-height: 32px;
+    color: #2B292D;
+}
+
+.about__article {
+    height: 102px;
+    width: 555px;
+    padding-top: 77px;
+    padding-bottom: 76px;
+}
+
+.article_one {
+ margin-left: 130px;
+}
+.article_two {
+margin-left: 29px;
+   margin-right: 131px;
+}
+
+.about__article_caption {
+    margin: 0;
+    font-weight: 700;
+}
+
