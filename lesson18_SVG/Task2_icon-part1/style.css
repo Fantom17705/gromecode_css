@@ -30,6 +30,3 @@
 .button-one:hover > .img-svg {
    fill: green;
 }
-.fas {
-    vertical-align: middle;
-}
