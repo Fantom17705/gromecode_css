@@ -1,10 +1,10 @@
 .customers {
-    background: #F2F2F2;
+    background: white;
     width: 1400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 130px 81px 130px;
+    padding: 30px 130px 106px 130px;
 }
 
 .customers__logo {
