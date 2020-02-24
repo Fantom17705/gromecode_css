@@ -22,17 +22,20 @@ body {
    
 }
 
+.spiner {
+    margin: auto;
+}
 .rect {
     position: relative;
     background-color: black;
     width: 10px;
     height: 4px;
     border-radius: 2px;
-    animation-name: moving;
+    animation-name: moving, blinking;
     animation-iteration-count: infinite;
     animation-duration: 2s;
-    animation-name: blinking;
+   
     animation-iteration-count: infinite;
-    animation-duration: 2s;
+    animation-direction: alternate;
     
 }
