@@ -1,4 +1,4 @@
-body {
+.container {
     display: flex;
     justify-content: center;
 }
@@ -25,7 +25,7 @@ span {
     text-transform: uppercase;
     display: block;
     position: relative;
-    top: calc(100% - 57px);
+    top: calc(100% - 64px);
 }
 
 @keyframes moving {
