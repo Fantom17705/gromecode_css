@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-text {
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 16px;
+    animation-name: blinking;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    transition-timing-function: linear;
+   
+}
+
+.rect {
+    position: relative;
+    background-color: black;
+    width: 10px;
+    height: 4px;
+    border-radius: 2px;
+    animation-name: moving;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-name: blinking;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    
+}
