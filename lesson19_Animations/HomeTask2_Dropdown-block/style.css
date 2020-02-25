@@ -29,16 +29,14 @@ span {
     text-transform: uppercase;
     display: block;
     position: relative;
-    top: calc(100% - 57px);
+    line-height: 100px;
 }
 
 @keyframes moving {
     from {
-        
         top: -100px;
     }
     to {
-        
         top: calc(50vh - 50px);
     }
 }
