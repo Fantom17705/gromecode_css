@@ -29,11 +29,13 @@ main {
 .footer {
     background-color: #e5e5e5;
     padding: 0.5em;
+    text-align: center;
 }
 
 .navigation {
     width: 20%;
-    padding: 0.5em;
+    padding-left:0.5em;
+    padding-right:0.5em;
 }
 
 .nav-list {
@@ -61,7 +63,8 @@ main {
 
 .section {
     width: 60%;
-    padding: 0.5em;
+    padding-left:0.5em;
+    padding-right:0.5em;
     font-size: 1.25em;
 }
 
@@ -71,7 +74,8 @@ main {
 
 .news {
     width: 20%;
-    padding: 0.5em;
+    padding-left:0.5em;
+    padding-right:0.5em;
 }
 
 .css-units {
