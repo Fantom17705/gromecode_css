@@ -9,9 +9,6 @@
     height: 100vh;
     }
 
-    .spinner {
-        line-height: 0px;
-    }
 .circle {
     margin: auto;
     border-radius: 50%;
@@ -20,7 +17,7 @@
     border: 4px solid lightgray;
    border-top: 4px solid black;
     margin-bottom: 8px;
-    animation: spin 2s linear infinite;
+    animation: spin 2s infinite linear ;
 }
 
 .spinner-text {
