@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100vh;
+    overflow: hidden;
+}
+
 .container {
     height: 100vh;
     display: flex;
@@ -32,16 +37,34 @@
 }
 
 @media screen and (orientation: portrait) {
+    body {
+        display: table;
+        width: 100%;
+    }
     .container {
+        min-height: 332px;
+        display: table-cell;
+        vertical-align: middle;
+       
+
+        position: relative;
+        left: calc(50% - 58px);
+    }
+    /* .container {
         display: block;
+        min-height: 332px;
+        width: 116px;
+     
+        overflow: hidden;
+margin: auto; */
+    /* display: block;
         height: 100%;
         width: 100%;
         display: block;
-        margin-left: 50%;
-        margin-top: 50%;
-        /* position: absolute;
+        margin-left: auto;
+        margin-top: auto; */
+    /* position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%); */
-    }
 }
