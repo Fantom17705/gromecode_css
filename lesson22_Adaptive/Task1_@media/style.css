@@ -37,8 +37,12 @@ html {
 }
 
 @media screen and (orientation: portrait) {
+   .container {
+       display: flex;
+       flex-direction: column;
+   }
     
-    .container {
+    /* .container {
         height: 100vh;
         display: block;
         min-height: 316px;
@@ -46,7 +50,7 @@ html {
         position: relative;
         left: calc(50% - 58px);
         top: calc(50% - 158px);
-    }
+    } */
     /* .container {
         display: block;
         min-height: 332px;
